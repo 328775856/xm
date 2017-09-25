@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+#container{
+	width:952px;
+	height:620px;
+	margin:auto auto;}
+
+#top{
+	width:84%;
+	height:100px;
+	background:#3a599c;
+	font-size:28px;
+	color:#FFF;
+	line-height:100px;
+	font-weight:bold;
+	padding-left:10px;
+	margin-top:8px;}
+#top+ul{
+	width:130px;
+	height:100px;
+	position:absolute;
+	top:15px;
+	right:-10px;
+	right:480px;
+	list-style:none;
+	padding:0;}
+#top+ul li{
+	display:inline-block;
+	width:18px;
+	height:15px;}	
+#l1{
+	background:url(../images/theme.gif) 0px 0px;}
+#l2{
+	background:url(../images/theme.gif) 18px 0px}
+#l3{
+	background:url(../images/theme.gif) 36px 0px}
+#l4{
+	background:url(../images/theme.gif) 56px 0px}
+#l5{
+	background:url(../images/theme.gif) 76px 0px}							
+#nav{
+	width:810px;
+	background:#3a599c;
+	height:40px;
+	margin-top:20px;
+	}	
+#nav ul{
+	width:100%;
+	height:30px;
+	padding-left:10px;
+	}		
+#nav ul li{
+	list-style:none;
+	float:left;
+	text-align:center;
+	position:relative;
+	top:5px;
+	width:80px;
+	height:30px;
+	display:inline-block;}	
+#nav ul li a{
+	text-decoration:none;
+    padding:0px 5px;
+	margin-left:10px;
+	line-height:30px;
+	color:#3ab0f8;
+	text-align:center;
+	width:60px;
+	height:30px;
+	display:inline-block;
+	background:#FFF;
+	font-size:14px;}
+#nav ul li a:hover{
+	background:#09F;
+	color:#FFF;}		
+
+#nav ul li ul li{
+	width: 80px;
+	height: 10px;
+	margin:0px;
+	padding-top:20px;
+    display:none;}
+#nav ul li ul li a{
+	width: 60px;
+	height: 30px;
+	position:relative;
+	left:-10px;
+	top:-25px;
+	z-index:2;}	
+#nav ul li ul li a:hover{
+	background:#039;}	
+.top{
+	color:#FFF;
+	background:#3a599c;
+	font-weight:bold;
+	width:83.8%;
+	font-size:14px;
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+	border:1px solid #000;
+	margin-top:10px;}
+#ctn{
+	width:806px;
+	height:555px;
+	border:1px solid #000;}	
+#ctn_left{
+	margin:5px;
+	float:left;}
+.jqzoom{
+	position:absolute;
+	z-index:1}	
+#ctn_left span { 
+	display:block;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:310px;
+	clear:both; 
+}
+#ctn_left span a:hover{ 
+	text-decoration:none;
+}	
+#tabs{
+	width:370px;
+	height:100px;
+	margin:0px;
+	padding:0px;}
+#tabs ul{
+	width:365px;
+	height:30px;
+	background:#3a599c;}			
+#tabs ul li{
+	height:27px;
+	font-size:13px;
+	margin-right:3px;
+	padding:0px;}
+#tabs ul li a{
+	height:15px;}	
+#tabs div{
+	clear:both;
+	list-style:none;
+	width:370px;
+	height:60px;
+	border:1px solid #CCC;
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	font-size:12px;
+	text-indent:2em;}				
+#ctn_right{
+	width:410px;
+	height:98.5%;
+	margin:5px 0 0 390px;
+	border:0px solid #000;
+	font-size:14px;
+	}	
+#left_footer{
+	width:310px;
+	height:90px;}
+#f img{
+	padding-left:105px;}
+#left_footer div img{
+	cursor:pointer;}		
+#left_footer div+div{
+	width:85px;
+	height:85px;
+	float:left;
+	margin-left:12px;}	
+#one,#two,#three{
+	border:#06F 1px solid;}	
+
+h4{
+	font-size:15px;
+	
+	padding:0px;
+	margin:0px;}
+.h4 span{
+	text-decoration:line-through;}	
+#h4,#size+h4{
+	margin-top:20px;}	
+#color{
+	width:100%;
+	height:30px;}
+#color div{
+	width:26px;
+	margin-right:3%;
+	height:26px;
+	float:left;
+	border:#666 1xp solid;}
+#color div img{
+	cursor:pointer;}	
+#size{
+	width:100%;
+	height:22px;}	
+#size div{
+	margin-right:3%;
+	float:left;
+	width:40px;
+	height:20px;
+	border:1px #000000 solid;
+	cursor:pointer;
+	text-align:center;}
+#size+h4,#size+h4+h4,#size+h4+h4+h4{
+	margin-top:10px;}	
+#star{
+	width:176px;
+	height:15px;
+	background:url(../images/star-matrix.gif) no-repeat;
+	cursor:pointer;}
+#ipt{
+	margin-top:10px;}	
+						
+						
+								
+/*放大镜*/	
+
+.jqzoom{
+   width:310px;
+   height:310px;
+   border:1px solid #ccc;
+   position:relative;
+}
+	
+div.zoomdiv {
+	z-index:	999;
+	position                : absolute;
+	top:0px;
+	left:0px;
+	width                   : 200px;
+	height                  : 200px;
+	background: #ffffff;
+	border:1px solid #CCCCCC;
+	display:none;
+	text-align: center;
+	overflow: hidden;
+}
+div.jqZoomPup {
+	z-index                 : 999;
+	visibility              : hidden;
+	position                : absolute;
+	top:0px;
+	left:0px;
+	width                   : 50px;
+	height                  : 50px;
+	border: 1px solid #aaa;
+	background: #ffffff url(../zoomlens.gif) 50% top  no-repeat;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	filter: alpha(Opacity=50);
+}		
+/*---------*/
+	
